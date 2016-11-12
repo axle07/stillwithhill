@@ -19,11 +19,11 @@ img {
     max-width: 100%;
 }
 a {
-	color: Navy;
+	color: #e31313;
 }
 a:hover {
 	text-decoration: none;
-	color: #FF4D19;
+	color: Navy;
 }
 .row {
 	padding-bottom: 32px;
@@ -89,7 +89,6 @@ nav {
 }
 h1 {
 	text-align: center;
-	text-transform: uppercase;
 	font-weight: 700;
     margin-bottom: 36px;
 }
@@ -112,9 +111,11 @@ h1#site-title {
 	background-color: #131C40;
 }
 #intro h1 {
+    text-transform: uppercase;
 	font-size: 42px;
 }
 #dnd {
+    margin-top: 36px;
     color: black;
 }
 #research {
@@ -127,7 +128,8 @@ h1#site-title {
 	background-color: #0F8AD9;
 }
 #outro {
-	background-color: #4C577F;
+	background-color: #131C40;
+    min-height: 124px;
 }
 #outro h1 {
 	font-weight: 200;
