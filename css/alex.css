@@ -1,0 +1,159 @@
+/* simple reset */
+body {
+	min-height: 100%;
+}
+
+
+/* Bootstrap ctrl+z */
+
+body, p, blockquote{
+    font-weight: lighter;
+	font-size: 18px;
+	font-weight: 200;
+    font-family: Palatino, serif;
+}
+h1, h2 {
+	font-family: 'Montserrat', sans-serif;
+}
+img {
+    max-width: 100%;
+}
+a {
+	color: Navy;
+}
+a:hover {
+	text-decoration: none;
+	color: #FF4D19;
+}
+.row {
+	padding-bottom: 32px;
+}
+.glyphicon {
+	font-size: 48px;
+	text-align:center;
+}
+
+/* custom styles */
+#bg {
+	margin-top: 0;
+  position: fixed; 
+  top: 0; 
+  left: 0; 
+
+  /* Preserve aspet ratio */
+  height: 100%;
+	z-index: -1;
+}
+#big-head {
+	height: 100%;
+	width: 100%;
+}
+#big-head h2, #big-head p {
+	color: white;
+}
+
+#big-head p {
+	font-size: 18px;
+}
+#site-title {
+    color: white;
+	font-weight: 700;
+	font-size: 92px;
+	line-height: 94px;
+    margin-top: 98px;
+}
+nav {
+	font-size: 48px;
+	color: white;
+	line-height: 42px;
+}
+.pattern {
+	width: 100%;
+	height: 100%;
+	min-height: 100%;
+	z-index: 100;
+	background: url(http://i.huffpost.com/gen/4727452/images/o-HILLARY-CLINTON-facebook.jpg) no-repeat center center fixed;
+	background-size: cover;
+    color: white;
+}
+.summary {
+	margin-top:104px;
+	margin-bottom: 48px;
+}
+.summary div[class*="col-sm-"] {
+/*	background-color: rgba(38, 57, 205, 0.4); */
+	padding: 8px 8px 6px 14px;
+}
+.summary p {
+	margin: 0;
+}
+h1 {
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: 700;
+    margin-bottom: 36px;
+}
+.row h1, .row h2 {
+}
+.row h1 {
+	margin-top: 48px;
+}
+.row h2 {
+	margin-top: 36px;
+	font-weight: 200;
+}
+.row hr {
+	width:348px;
+}
+h1#site-title {
+	text-align: left;
+}
+#intro {
+	background-color: #131C40;
+}
+#intro h1 {
+	font-size: 42px;
+}
+#dnd {
+    color: black;
+}
+#research {
+	background-color: #131C40;
+}
+#interaction {
+	background-color: #334DAB /*  #4C72FF */;
+}
+#progress {
+	background-color: #0F8AD9;
+}
+#outro {
+	background-color: #4C577F;
+}
+#outro h1 {
+	font-weight: 200;
+}
+@media (max-width: 960px) {
+	.summary {
+		margin-top: 48px;
+}
+}
+@media (max-width: 568px) {
+	#site-title {
+		margin-top: 60px;
+		font-size: 60px;
+		line-height: 60px;
+	}
+	.row {
+		padding-bottom: 24px;
+	}
+}
+@media (max-width: 360px) {
+  .row hr {
+		width: 280px;
+	}
+}
+@media screen and (max-aspect-ratio: 1/1) { 
+	#big-head {
+		background-size: cover;
+}
+}
