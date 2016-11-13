@@ -36,9 +36,9 @@ a:hover {
 /* custom styles */
 #bg {
 	margin-top: 0;
-  position: fixed; 
-  top: 0; 
-  left: 0; 
+  position: fixed;
+  top: 0;
+  left: 0;
 
   /* Preserve aspet ratio */
   height: 100%;
@@ -72,9 +72,28 @@ nav {
 	height: 100%;
 	min-height: 100%;
 	z-index: 100;
-	background: url(http://i.huffpost.com/gen/4727452/images/o-HILLARY-CLINTON-facebook.jpg) no-repeat center center fixed;
 	background-size: cover;
     color: white;
+}
+#bg {
+  position: fixed;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+}
+#bg img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  min-width: 50%;
+  min-height: 50%;
+}
+section {
+    background: white
 }
 .summary {
 	margin-top:104px;
@@ -104,56 +123,56 @@ h1 {
 .row hr {
 	width:348px;
 }
-.btn-sample { 
-    color: #ffffff; 
-    background-color: #1138C2; 
-    border-color: #626BA8; 
+.btn-sample {
+    color: #ffffff;
+    background-color: #1138C2;
+    border-color: #626BA8;
 
     padding: 14px;
     font-size: 24px;
     border-radius: 8px;
     display: inline-block;
 	font-family: 'Montserrat', sans-serif;
-} 
+}
 
-.btn-sample:hover, 
-.btn-sample:focus, 
-.btn-sample:active, 
-.btn-sample.active, 
-.open .dropdown-toggle.btn-sample { 
-    color: #ffffff; 
-    background-color: #227ABD; 
-    border-color: #626BA8; 
-} 
+.btn-sample:hover,
+.btn-sample:focus,
+.btn-sample:active,
+.btn-sample.active,
+.open .dropdown-toggle.btn-sample {
+    color: #ffffff;
+    background-color: #227ABD;
+    border-color: #626BA8;
+}
 
-.btn-sample:active, 
-.btn-sample.active, 
-.open .dropdown-toggle.btn-sample { 
-    background-image: none; 
-} 
+.btn-sample:active,
+.btn-sample.active,
+.open .dropdown-toggle.btn-sample {
+    background-image: none;
+}
 
-.btn-sample.disabled, 
-.btn-sample[disabled], 
-fieldset[disabled] .btn-sample, 
-.btn-sample.disabled:hover, 
-.btn-sample[disabled]:hover, 
-fieldset[disabled] .btn-sample:hover, 
-.btn-sample.disabled:focus, 
-.btn-sample[disabled]:focus, 
-fieldset[disabled] .btn-sample:focus, 
-.btn-sample.disabled:active, 
-.btn-sample[disabled]:active, 
-fieldset[disabled] .btn-sample:active, 
-.btn-sample.disabled.active, 
-.btn-sample[disabled].active, 
-fieldset[disabled] .btn-sample.active { 
-    background-color: #1138C2; 
-    border-color: #626BA8; 
-} 
+.btn-sample.disabled,
+.btn-sample[disabled],
+fieldset[disabled] .btn-sample,
+.btn-sample.disabled:hover,
+.btn-sample[disabled]:hover,
+fieldset[disabled] .btn-sample:hover,
+.btn-sample.disabled:focus,
+.btn-sample[disabled]:focus,
+fieldset[disabled] .btn-sample:focus,
+.btn-sample.disabled:active,
+.btn-sample[disabled]:active,
+fieldset[disabled] .btn-sample:active,
+.btn-sample.disabled.active,
+.btn-sample[disabled].active,
+fieldset[disabled] .btn-sample.active {
+    background-color: #1138C2;
+    border-color: #626BA8;
+}
 
-.btn-sample .badge { 
-    color: #1138C2; 
-    background-color: #ffffff; 
+.btn-sample .badge {
+    color: #1138C2;
+    background-color: #ffffff;
 }
 h1#site-title {
 	text-align: left;
@@ -167,7 +186,6 @@ h1#site-title {
     text-align:center;
 }
 #dnd {
-    margin-top: 36px;
     color: black;
 }
 #research {
@@ -206,7 +224,7 @@ h1#site-title {
 		width: 280px;
 	}
 }
-@media screen and (max-aspect-ratio: 1/1) { 
+@media screen and (max-aspect-ratio: 1/1) {
 	#big-head {
 		background-size: cover;
 }
